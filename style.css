@@ -1,0 +1,63 @@
+
+
+.fimage{
+  width: 400px;
+  height: 300px;
+  position: relative;
+  border: solid yellow;
+  margin-bottom: 20px;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  margin-top: 100px;
+}
+
+.btns{
+  display: flex;
+  justify-content: center;
+
+}
+
+h1{
+  color: red;
+  position: absolute;
+  top: 150px;
+  left: 230px;
+  font-size: 4rem;
+}
+button{
+  padding: 10px 20px;
+  background-color: green;
+  margin: 0 5px;
+  font-size: 1.5rem;
+}
+
+
+.showPrev{
+  visibility: visible;
+}
+
+.hidePrev{
+  visibility: hidden;
+}
+
+.showNext{
+  visibility: visible;
+}
+
+.hideNext{
+  visibility: hidden;
+}
+
+@media screen and (min-width: 1000px) {
+  h1{
+    color: red;
+    position: absolute;
+    top: 150px;
+    left: 700px;
+    font-size: 4rem;
+  }
+}
